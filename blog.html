@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="blog-body">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h3>Discuss the scope of var, let, and const</h3>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>VAR.</strong> <br>
+            <p>Variables declared with the "var" keyword are function-scoped or globally-scoped. If a var variable is declared outside a function, it is globally scoped and can be accessed throughout the window. If it is declared within a function, it is function-scoped and can only be accessed within that function. var variables can be re-declared and updated within their scope.</p>
+            <strong>LET.</strong> <br>
+            <p>Variables declared with the "let" keyword are block-scoped. This means that they are only accessible within the block where they are defined. let variables can be updated but not re-declared within their scope.</p>
+            <strong>CONST.</strong> <br>
+            <p> Variables declared with the "const" keyword are also block-scoped. However, unlike let variables, const variables cannot be updated or re-declared within their scope. Once a const variable is assigned a value, it cannot be changed.</p>
+
+        </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h3>Tell us the use cases of null and undefined</h3>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>NULL.</strong> <br>
+            <p>null is used to indicate that a variable should have no value.
+                null can be assigned to a variable as a representation of no value.</p>
+            <strong>UNDEFINED.</strong>
+            <p>undefined is used as the default value of variables until they’re assigned some other value.
+                undefined is the value of function arguments that weren’t provided when the function was called.
+                undefined is the value you get when you ask an object for a property it doesn’t have.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h3>What do you mean by REST API?</h3>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>REST API.</strong> <br>
+              <p>The term REST API stands for Representational State Transfer Application Programming Interface.It is a type of web service that uses HTTP requests to access and manipulate data.This is the connection between server and client. This is the process
+                by which client can see the data in server.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>

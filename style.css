@@ -1,0 +1,111 @@
+.header {
+  margin: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-1 {
+  padding: 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.315);
+  border-radius: 5px;
+}
+.btn-2 {
+  color: white;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 18, 73);
+  border-radius: 5px;
+}
+.btn-dec {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.btnTop {
+  padding: 10px;
+  border: none;
+  background-color: rgba(149, 178, 220, 0.488);
+  border-radius: 5px;
+}
+
+#top {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 300px;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.imaged {
+  margin: auto;
+  padding: 20px;
+}
+
+.afterImaged {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+  padding-left: 2%;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+#bod {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+#first_page {
+  font-size: 10vw;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: rgba(214, 19, 19, 0.286);
+}
+.cNoData {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.verify {
+  width: 7%;
+}
+.views {
+  z-index: auto;
+}
+.aimg {
+  border-radius: 50%;
+}
+.blog-body {
+  background-color: rgba(137, 241, 206, 0.444);
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.active {
+  background: red !important;
+  color: white !important;
+}
